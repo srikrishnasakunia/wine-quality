@@ -1,0 +1,120 @@
+<!DOCTYPE html><html><head><link href="https://fonts.googleapis.com/css?family=Qwigley&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Rockwell&display=swap" rel="stylesheet" />
+    <link href="./main.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./static/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="./static/css2/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <title>Document</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src=".js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <title>Document</title>
+     </head>
+<body>
+    <div class="v1_2">
+    <div class="v1_5">
+        <div class="v1_8"></div>
+        
+        
+        <span class="v10_9">By K.A Wines</span>
+        <span class="v10_8">Quality Classification</span>
+        </div>
+    <div class="v14_10">
+        <div class="v1_10">
+            </div>
+        <span class="v1_9">Hey, Krishna</span>
+        </div>
+    <div class="v10_4"></div>
+    <span class="v10_5">Contact Us</span>
+    <span class="v10_6">About</span>
+    <span class="v10_7">Home</span>
+    <div class="v14_11"><div class="v1_3">
+        </div>
+        <span class="v11_2">Lets check if your wine lives up to the standard</span>
+        </div>
+    <div class="container">
+      <div class = "center">
+        
+      <div class="row" >
+        <form action = "/predict" method="post" class="col s12">
+            <div class="row">
+                
+                <div class="input-field col s4">
+                    <label for="FA"><b>Fixed Acidity</b></label>
+                    <br>
+                  <input placeholder="Fixed Acidity" name="Fixed Acidity" id="FA" type="number" class="validate" step="any">
+                </div>
+    
+                <div class="input-field col s4">
+                    <label for="VA"><b>Volatile Acidity</b></label>
+                    <br>
+                  <input placeholder="volatile acidity" name="volatile acidity" id="VA" type="number" class="validate" step="any">
+                </div>
+    
+                <div class="input-field col s4">
+                    <label for="CA"><b>Citric Acid</b></label>
+                    <br>
+                  <input placeholder="citric acid" name="citric acid" id="CA" type="number" class="validate" step="any">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s4">
+                    <label for="RS"><b>residual sugar</b></label>
+                    <br>
+                  <input placeholder="residual sugar" name="residual sugar" id="RS" type="number" class="validate" step="any">
+                </div>
+    
+                <div class="input-field col s4">
+                    <label for="chlorides"><b>chlorides</b></label>
+                    <br>
+                  <input placeholder="chlorides" name="chlorides" id="chlorides" type="number" class="validate" step="any">
+                </div>
+    
+                <div class="input-field col s4">
+                    <label for="fsd"><b>free sulfur dioxide</b></label>
+                    <br>
+                  <input placeholder="free sulfur dioxide " name="free sulfur dioxide" id="fsd" type="number" class="validate" step="any">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s4">
+                    <label for="density"><b>density</b></label>
+                    <br>
+                  <input placeholder="density " name="density" id="density" type="number" class="validate"step="any">
+                </div>
+    
+                <div class="input-field col s4">
+                    <label for="pH"><b>pH</b></label>
+                    <br>
+                  <input placeholder="pH" name="pH" id="pH" type="number" class="validate"step="any">
+                </div>
+    
+                <div class="input-field col s4">
+                    <label for="sulphates"><b>sulphates</b></label>
+                    <br>
+                  <input placeholder="sulphates" name="sulphates" id="sulphates" type="number" class="validate" step="any">
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s4">
+                    <label for="alcohol"><b>alcohol</b></label>
+                    <br>
+                  <input placeholder="alcohol" name="alcohol" id="alcohol" type="number" class="validate" step="any">
+                </div>
+                <button type="submit" class="btn-large waves-effect waves-light orange">Predict Probability</button>
+            </div>
+        </form>
+        </div>
+      </div>      
+    </div>
+
+    <div class="v12_6">
+        </div>
+    <div class="v12_8">
+        </div>
+        </div>
+    </body>
+</html>
